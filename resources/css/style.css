@@ -1,0 +1,115 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  background: black;
+  text-align: center;
+  color: seashell;
+  margin: 0;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  background: black;
+}
+
+header .logo, header nav {
+  display: inline-block;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-right: 10px;
+}
+
+header nav li {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+header nav a {
+  color: seashell;
+}
+
+#mission {
+  background: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-banner {
+  background: black;
+  width: 100%;
+}
+
+#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.featured-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  background: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.loc-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.location-card {
+  background: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+}
+footer {
+  width: 100%;
+}
+
+.contact {
+  min-height: 200px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
